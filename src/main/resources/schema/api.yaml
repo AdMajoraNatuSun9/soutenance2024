@@ -1,0 +1,11 @@
+openapi: "3.0.3"
+info:
+  title: Api generator
+  version: 1.0.0
+  description: About Project
+servers:
+  - url: http://localhost:8080
+    description: Local server
+paths:
+  /list:
+    $ref: "./controller/batch.yaml"
